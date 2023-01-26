@@ -4,8 +4,8 @@ import { BsSearch } from "react-icons/bs";
 import "./App.css";
 
 function App() {
-  const app_id = "b221a1a9";
-  const app_key = "29577e76873f292a3a8cb25e1fd438ae";
+  const app_id = "ec23eb4d";
+  const app_key = "9b22ab238272156bbac67c4042aa198a";
   const [allRecipe, setRecipe] = useState([]);
   const [search, setSearch] = useState("");
   const [query, setQuery] = useState('');
