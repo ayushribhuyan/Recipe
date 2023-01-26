@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Rowdies:wght@300;700&family=Signika+Negative:wght@500&display=swap');
+.food {
+  width: 25rem;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  /* padding: 2rem; */
+  box-shadow: 0rem 0.2rem 0.5rem 0.2rem #aaa;
+  background-color:rgb(255, 255, 255);
+  color: black;  
+  text-align: center;
+  font-family: 'Signika Negative', sans-serif;
+}
+.image {
+  width: 100%;
+  height: 50vh;
+}
+
+.myStyle {
+  border: none;
+  background: #e5497b;
+  padding: 12px 20px;
+  /* border-radius: 20px 0 20px 0; */
+}
+.linkStyle {
+  color: rgb(188, 247, 9);
+  text-decoration: none;
+  
+}
+.linkStyle:hover {
+  text-decoration: none;
+  color: rgb(216, 223, 22);
+}
+
+
+button.accordin {
+  background-color: #fff;
+  border-bottom: solid 1px #d8dcde
+}
+
+.accordin h3{
+  display: inline-flex;
+  width: 98%;
+}
+.accordin span{
+display: inline-flex;
+
+}
+.accordin {
+  border-bottom: 5px;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: 0;
+  font-size: 15px;
+  transition: .4s
+}
+
+.content {
+  padding: 15px 18px;
+  background-color: #fff;
+  display: none;
+  overflow: hidden
+}
+
+i {
+  float: right;
+  display: block
+}
+
+/*
+@media only screen and (max-device-width:600px) {
+  h3 {
+      font-size: 20px;
+      width: 91%;
+  }
+  p {
+      font-size: 16px;
+  }
+}*/
+
+@media screen and (max-width:375px),(max-width:576px),(max-width:768px),(max-width:900px) {
+  h3 {
+      font-size: 20px;
+      width: 90%!important;
+  }
+  p {
+      font-size: 16px;
+  }
+.accordin span{
+  display: inline-block;
+  text-align: right;
+  width: 8%;
+}
+}
+

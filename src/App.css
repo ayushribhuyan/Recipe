@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Rowdies:wght@300;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  min-height: 100vh;
+  margin:auto;
+  background:url('https://media.istockphoto.com/id/1152604566/pt/foto/healthy-food-background-healthy-food-in-paper-bag-bread-milk-vegetables-and-fruits-on-white.jpg?s=170667a&w=0&k=20&c=oUGHyWxIKzQ-ibIKiURFbLzREpDRGMgh-lP4gytKimA=');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.h2style{
+  color:rgb(21, 112, 19);
+  font-family: 'Rowdies', cursive;
+}
+
+.form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.input {
+  width: 50%;
+  border: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 6px;
+}
+.search {
+  border: none;
+  background: rgb(21, 112, 19);
+  padding: 12px 20px;
+  color: white;
+  font-family: 'Rowdies', cursive;
+  border-radius: 20px;
+}
+.search:hover {
+  background:rgb(41, 172, 39);
+  cursor: pointer;
+}
+/* .footer-copyright{
+  min-height: 10vh;
+  background-image: linear-gradient(rgba(106, 102, 102, 0.133), rgba(218, 210, 210, 0.237));
+  color:rgb(9, 9, 9);
+  font-family: 'Rowdies', cursive;
+}
+ */
+
+.search1 {
+  display: none;
+}
+
+@media screen and (max-width: 769px) {
+  .search {
+    display: none;
+  }
+  .search1 {
+    border: none;
+    background: rgb(21, 112, 19);
+    padding: 12px 20px;
+    color: white;
+    font-family: 'Rowdies', cursive;
+    border-radius: 60px;
+    display:flex;
+  }
+  .input {
+    width: 70%;
+  }
+}
