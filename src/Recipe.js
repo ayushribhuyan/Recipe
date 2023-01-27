@@ -7,8 +7,8 @@ function Recipe(props) {
       <img src={props.image} className={style.image} alt={props.label}></img>
       <div className="card-body">
         <h2>{props.title}</h2>
-        <p className="font-weight-bold"> Calories:<span style={{ color: '#00FF00' }}> {props.calory} Cal</span></p>
-        <p className="font-weight-bold">Number of servings:<span style={{color: '#00FF00'}}> {props.yield}</span></p>
+        <p className="font-weight-bold"> Calories:<span style={{ color: '#DE3163' }}> {props.calory} Cal</span></p>
+        <p className="font-weight-bold">Number of servings:<span style={{color: '#DE3163'}}> {props.yield}</span></p>
         {/* <button class="accordin" 
         
         onClick={function(el) {
