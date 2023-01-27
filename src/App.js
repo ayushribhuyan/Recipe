@@ -36,7 +36,7 @@ function App() {
       <form onSubmit={getSearch} className="form">
         <input type="text" className="input" value={search} placeholder= "panner, chicken, pancake etc..."onChange={updateSearch}></input>
         <button type="submit" className="search">Search</button>
-        <button type="submit" className="search1"> <BsSearch size="20px" color="yellow"/> </button>
+        <button type="submit" className="search1"> <BsSearch size="20px" color="white"/> </button>
       </form>
       <div className="row">
       </div>
