@@ -32,7 +32,7 @@ function App() {
   return (
     <div>
     <div className="App">
-      <h2 className="text-center mt-3 h2style">GET RECIPE</h2>
+      <h2 className="text-center mt-3 h2style">GET RECIPE 🍳</h2>
       <form onSubmit={getSearch} className="form">
         <input type="text" className="input" value={search} placeholder= "panner, chicken, pancake etc..."onChange={updateSearch}></input>
         <button type="submit" className="search">Search</button>
@@ -48,7 +48,6 @@ function App() {
             label={r.recipe.label}
             calory={r.recipe.calories.toFixed(0)}
             image={r.recipe.image}
-            yield={r.recipe.yield}
             // ingredients={r.recipe.ingredients}
             url={r.recipe.url}
           />

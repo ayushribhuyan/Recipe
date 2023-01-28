@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Rowdies:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Josefin+Sans&family=Rowdies:wght@300;700&family=Signika+Negative:wght@500&family=Ubuntu:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +15,8 @@
 
 .h2style{
   color:rgb(21, 112, 19);
-  font-family: 'Rowdies', cursive;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 800;
 }
 
 .form {
@@ -38,20 +39,13 @@
   background: rgb(21, 112, 19);
   padding: 12px 20px;
   color: white;
-  font-family: 'Rowdies', cursive;
+  font-family: 'Ubuntu', sans-serif;
   border-radius: 20px;
 }
 .search:hover {
   background:rgb(41, 172, 39);
   cursor: pointer;
 }
-/* .footer-copyright{
-  min-height: 10vh;
-  background-image: linear-gradient(rgba(106, 102, 102, 0.133), rgba(218, 210, 210, 0.237));
-  color:rgb(9, 9, 9);
-  font-family: 'Rowdies', cursive;
-}
- */
 
 .search1 {
   display: none;
@@ -66,7 +60,7 @@
     background: rgb(21, 112, 19);
     padding: 12px 20px;
     color: white;
-    font-family: 'Rowdies', cursive;
+    font-family: 'Ubuntu', sans-serif;
     border-radius: 60px;
     display:flex;
   }

@@ -1,1 +1,5 @@
-Try this demo at : https://63d2bd2fb21c5e006241c7b5--inspiring-valkyrie-2e45ff.netlify.app/
+React Recipe
+A simple React web application that uses the Edamam API to search and display recipes.
+
+Demo
+Try out the demo https://63d2ad73b826d90bfffe9d02--rococo-khapse-5cbb29.netlify.app/
